@@ -10,6 +10,9 @@ const app = Vue.createApp({
     }, 
     reduce(num){
       this.counter=this.counter-num;
+    }, 
+    setName(event){
+      this.name=event.target.value;
     }
 });
 
