@@ -18,6 +18,9 @@ const app = Vue.createApp({
     }, 
     submitForm(){
       alert('Submitted!');
+    }, 
+    confirmedInput(){
+      this.confirmedName=this.name;
     }
   }
 });
